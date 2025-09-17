@@ -6,7 +6,7 @@ let botao = document.querySelector(".botao")
 
 const lista = ["back-azul","back-vermelho","back-abismo", "back-palido","back-luz", "back-zote"]
 const listaThumbnailUm = ["Imagens/KnightNightmares.png","Imagens/KnightAbismo.png","Imagens/KnightLife.png", "Imagens/KnightPanteao.png","Imagens/zote.png", "Imagens/KnightEncruzilhada.png"]
-const listaThumbnailDois = ["Imagens/KnightThumb2Hornet.png","Imagens/KnightThumb2Abyss.webp","Imagens/CityOfTears.png", "Imagens/Tec2.png","Imagens/VoidPanteao.png", "Imagens/KnightThumb2Intro.avif"]
+const listaThumbnailDois = ["Imagens/KnightThumb2Hornet.png","Imagens/KnightThumb2Abyss.webp","Imagens/CityOfTears.png", "Imagens/VoidPanteao.png","Imagens/Zote2.png", "Imagens/KnightThumb2Intro.avif"]
 
 let index = 0;
   var audio = new Audio("js/hollow.mp3");
