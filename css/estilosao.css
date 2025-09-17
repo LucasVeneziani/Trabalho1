@@ -52,9 +52,14 @@ nav{
     top: 0px;
     height: 200px;
     margin-top: -1px;
-    animation: halloknaito 4s infinite ease-in-out;
+    animation: halloknaito 4s infinite linear;
     transition-duration: 0.1s;
     position: relative;
+    transition: ease-in-out 1s;
+}
+
+.imagem:hover{
+    transform: scale(1.1);
 }
 
 @keyframes halloknaito {
