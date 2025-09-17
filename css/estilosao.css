@@ -38,7 +38,6 @@ body{
 .Filtro{
 filter: brightness(45%)
 }
-.Logo{
-    background-image: url(Imagens\LogoOyasumiBranca.png);
-    height: fit-content;
+.LogoContainer{
+    justify-self: center;
 }
