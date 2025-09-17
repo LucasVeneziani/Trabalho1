@@ -22,6 +22,7 @@ body{
   z-index: -1;
 }
 
+
 .zindexo{
     z-index: 0;
 }
@@ -40,4 +41,41 @@ filter: brightness(45%)
 }
 .LogoContainer{
     justify-self: center;
+}
+
+nav{
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.imagem{
+    top: 0px;
+    height: 200px;
+    margin-top: -1px;
+    animation: halloknaito 4s infinite ease-in-out;
+    transition-duration: 0.1s;
+    position: relative;
+}
+
+@keyframes halloknaito {
+  0% {
+    top: 0px;
+  }
+  50% {
+    top: 10px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+
+@media screen and (max-width:900px) {
+    .imagem{
+        height: 100px;
+        margin-top: -1px;
+    }
+    nav{
+        height: 100px;
+    }
+
 }
