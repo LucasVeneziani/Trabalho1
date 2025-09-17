@@ -6,7 +6,7 @@ let botao = document.querySelector(".botao")
 const lista = ["back-azul","back-vermelho","back-abismo", "back-palido","back-luz", "back-zote"]
 let index = 0;
   var audio = new Audio("js/hollow.mp3");
-  audio.volume = 0.035;
+  audio.volume = 0.065;
   audio.loop = true
 
 function isplaying(value) {
