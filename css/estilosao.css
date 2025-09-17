@@ -30,9 +30,14 @@ body{
     background-image: linear-gradient(to bottom, #000000,#2b0000, #490000, #b60000 );
 }
 .back-luz{
-    background-image: 
+    /* background-image: 
     linear-gradient(to bottom, rgba(181, 141, 34, 0.488),rgba(67, 54, 21, 0.466), rgba(0, 0, 0, 0.526), rgba(0, 0, 0, 0.526)),
-    radial-gradient(circle at top,rgb(190, 157, 58), rgb(164, 130, 50),rgb(89, 71, 28),rgb(26, 19, 7), black);
+    radial-gradient(circle at top,rgb(190, 157, 58), rgb(164, 130, 50),rgb(89, 71, 28),rgb(26, 19, 7), black); */
+
+    
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.464), rgba(0, 0, 0, 0.486)),
+    url("../Imagens/godmaster.webp");
+    background-size: contain;
     
 }
 .back-abismo{
